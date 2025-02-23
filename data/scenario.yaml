@@ -1,0 +1,12 @@
+scenario:
+  name: Scenario
+  desc: Game scenario badges.
+  badges:
+    temperate:
+      name: Temperate
+    sub-arctic:
+      name: Sub-Arctic
+    sub-tropical:
+      name: Sub-Tropical
+    toyland:
+      name: Toyland

@@ -1,0 +1,10 @@
+weather:
+  name: Weather
+  desc: Weather conditions.
+  badges:
+    clear:
+      name: Clear
+    rain:
+      name: Rain
+    snow:
+      name: Snow

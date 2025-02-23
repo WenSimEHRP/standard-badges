@@ -1,0 +1,32 @@
+role:
+  name: Role
+  desc: Roles of vehicles.
+  badges:
+    passenger:
+      name: Passenger
+    express_passenger:
+      name: Express Passenger
+    freight:
+      name: Freight
+    express_freight:
+      name: Express Freight
+    heavy_freight:
+      name: Heavy Freight
+    light_freight:
+      name: Light Freight
+    mixed:
+      name: Mixed
+    mail:
+      name: Mail
+    general:
+      name: General
+    shunting:
+      name: Shunting
+    banking:
+      name: Banking
+    snowplough:
+      name: Snowplough
+    utility:
+      name: Utility
+    prototype:
+      name: Prototype

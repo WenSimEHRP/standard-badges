@@ -1,0 +1,25 @@
+generic:
+  name: Generic
+  desc: No specific category. This category is used for generic badges.
+        Thus no badges will be named.
+  badges:
+    i:
+    ii:
+    iii:
+    iv:
+    v:
+    vi:
+    vii:
+    viii:
+    ix:
+    x:
+    xi:
+    xii:
+    xiii:
+    xiv:
+    xv:
+    xvi:
+    xvii:
+    xviii:
+    xix:
+    xx:

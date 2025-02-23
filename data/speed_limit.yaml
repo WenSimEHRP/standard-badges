@@ -1,0 +1,169 @@
+speed-limit:
+  name: Speed limit
+  desc: Speed limit for vehicles and infrastructure.
+        Badges are provided unit-less and with a 5 unit increment.
+  badges:
+    "generic-0":
+      name: "0"
+    "generic-5":
+      name: "5"
+    "generic-10":
+      name: "10"
+    "generic-15":
+      name: "15"
+    "generic-20":
+      name: "20"
+    "generic-25":
+      name: "25"
+    "generic-30":
+      name: "30"
+    "generic-35":
+      name: "35"
+    "generic-40":
+      name: "40"
+    "generic-45":
+      name: "45"
+    "generic-50":
+      name: "50"
+    "generic-55":
+      name: "55"
+    "generic-60":
+      name: "60"
+    "generic-65":
+      name: "65"
+    "generic-70":
+      name: "70"
+    "generic-75":
+      name: "75"
+    "generic-80":
+      name: "80"
+    "generic-85":
+      name: "85"
+    "generic-90":
+      name: "90"
+    "generic-95":
+      name: "95"
+    "generic-100":
+      name: "100"
+    "generic-105":
+      name: "105"
+    "generic-110":
+      name: "110"
+    "generic-115":
+      name: "115"
+    "generic-120":
+      name: "120"
+    "generic-125":
+      name: "125"
+    "generic-130":
+      name: "130"
+    "generic-135":
+      name: "135"
+    "generic-140":
+      name: "140"
+    "generic-145":
+      name: "145"
+    "generic-150":
+      name: "150"
+    "generic-155":
+      name: "155"
+    "generic-160":
+      name: "160"
+    "generic-165":
+      name: "165"
+    "generic-170":
+      name: "170"
+    "generic-175":
+      name: "175"
+    "generic-180":
+      name: "180"
+    "generic-185":
+      name: "185"
+    "generic-190":
+      name: "190"
+    "generic-195":
+      name: "195"
+    "generic-200":
+      name: "200"
+    "north-american-0":
+      name: "0"
+    "north-american-5":
+      name: "5"
+    "north-american-10":
+      name: "10"
+    "north-american-15":
+      name: "15"
+    "north-american-20":
+      name: "20"
+    "north-american-25":
+      name: "25"
+    "north-american-30":
+      name: "30"
+    "north-american-35":
+      name: "35"
+    "north-american-40":
+      name: "40"
+    "north-american-45":
+      name: "45"
+    "north-american-50":
+      name: "50"
+    "north-american-55":
+      name: "55"
+    "north-american-60":
+      name: "60"
+    "north-american-65":
+      name: "65"
+    "north-american-70":
+      name: "70"
+    "north-american-75":
+      name: "75"
+    "north-american-80":
+      name: "80"
+    "north-american-85":
+      name: "85"
+    "north-american-90":
+      name: "90"
+    "north-american-95":
+      name: "95"
+    "north-american-100":
+      name: "100"
+    "north-american-105":
+      name: "105"
+    "north-american-110":
+      name: "110"
+    "north-american-115":
+      name: "115"
+    "north-american-120":
+      name: "120"
+    "north-american-125":
+      name: "125"
+    "north-american-130":
+      name: "130"
+    "north-american-135":
+      name: "135"
+    "north-american-140":
+      name: "140"
+    "north-american-145":
+      name: "145"
+    "north-american-150":
+      name: "150"
+    "north-american-155":
+      name: "155"
+    "north-american-160":
+      name: "160"
+    "north-american-165":
+      name: "165"
+    "north-american-170":
+      name: "170"
+    "north-american-175":
+      name: "175"
+    "north-american-180":
+      name: "180"
+    "north-american-185":
+      name: "185"
+    "north-american-190":
+      name: "190"
+    "north-american-195":
+      name: "195"
+    "north-american-200":
+      name: "200"

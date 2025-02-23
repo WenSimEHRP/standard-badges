@@ -1,0 +1,37 @@
+rci:
+  name: RCI
+  desc: Badges to represent the residential, commercial, and industrial
+        properties and density of a building.
+  badges:
+    residential:
+      name: Residential
+    low-density-residential:
+      name: Low density residential
+    medium-density-residential:
+      name: Medium density residential
+    high-density-residential:
+      name: High density residential
+    commercial:
+      name: Commercial
+    low-density-commercial:
+      name: Low density commercial
+    medium-density-commercial:
+      name: Medium density commercial
+    high-density-commercial:
+      name: High density commercial
+    industrial:
+      name: Industrial
+    low-density-industrial:
+      name: Low density industrial
+    medium-density-industrial:
+      name: Medium density industrial
+    high-density-industrial:
+      name: High density industrial
+    commercial-residential:
+      name: Commercial & residential
+    low-density-commercial-residential:
+      name: Low density commercial & residential
+    medium-density-commercial-residential:
+      name: Medium density commercial & residential
+    high-density-commercial-residential:
+      name: High density commercial & residential

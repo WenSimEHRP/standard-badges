@@ -1,0 +1,9 @@
+power:
+  name: Propulsion
+  desc: Power sources.
+  badges:
+    steam:
+    diesel:
+    gasoline:
+    electric:
+    third-rail:

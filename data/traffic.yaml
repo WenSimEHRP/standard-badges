@@ -1,0 +1,20 @@
+traffic:
+  name: Traffic
+  desc: Traffic signs.
+  badges:
+    urban-area:
+      name: Urban Area
+    rural-area:
+      name: Rural Area
+    yield:
+      name: Yield
+    priority-road:
+      name: Priority Road
+    no-entry:
+      name: No Entry
+    circle-with-red-rim:
+      name: Circle with Red Rim
+    yellow-diamond:
+      name: Yellow Diamond
+    orange-diamond:
+      name: Orange Diamond
