@@ -1,9 +1,36 @@
 power:
   name: Propulsion
-  desc: Power sources.
+  desc: |
+    Power sources.
+
+    For electrified railway vehicles, sometimes authors would like to specify the type of power supply system,
+    thus the extra voltages and frequencies are included.
+
+    The recommended way is to include all related badges in the vehicle's `badge` property.
+    For example, for a diesel-electric locomotive that uses turbine and is powered by 25kv 50hz AC overhead wire
+    and 750V DC third rail, the `badge` property should be something like this:
+    ```
+    badges: ["power/diesel", "power/turbine", "power/electric", "power/overhead_wire", "power/ac", "power/25000v", "power/50hz", "power/third_rail", "power/dc", "power/750v"]
+    ```
   badges:
     steam:
     diesel:
     gasoline:
+    turbine:
     electric:
+    ac:
+    dc:
     third_rail:
+    overhead_wire:
+    "750v":
+    "1500v":
+    "3000v":
+    "6000v":
+    "25000v":
+    "16.7hz":
+    "25hz":
+    "50hz":
+    "60hz":
+    maglev:
+    animal:
+    magic:

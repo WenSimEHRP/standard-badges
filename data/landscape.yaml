@@ -1,0 +1,34 @@
+landscape:
+  name: Landscape
+  desc: Landscape types.
+  badges:
+    plain:
+      name: Plain
+    desert:
+      name: Desert
+    forest:
+      name: Forest
+    hills:
+      name: Hills
+    mountains:
+      name: Mountains
+    water:
+      name: Water
+    snow:
+      name: Snow
+    sea:
+      name: Sea
+    beach:
+      name: Beach
+    swamp:
+      name: Swamp
+    volcano:
+      name: Volcano
+    river:
+      name: River
+    lake:
+      name: Lake
+    island:
+      name: Island
+    canyon:
+      name: Canyon

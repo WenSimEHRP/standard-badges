@@ -1,0 +1,42 @@
+public_service:
+  name: Public Service
+  desc: Public services.
+  badges:
+    police:
+      name: Police
+    health:
+      name: Health
+    fire:
+      name: Fire
+    education:
+      name: Education
+    elementary_education:
+      name: Elementary Education
+    secondary_education:
+      name: Secondary Education
+    post_secondary_education:
+      name: Post-Secondary Education
+    university:
+      name: University
+    post:
+      name: Post
+    waste:
+      name: Waste Disposal
+    water:
+      name: Water
+    power:
+      name: Power
+    transport:
+      name: Transport
+    tourism:
+      name: Tourism
+    leisure:
+      name: Leisure
+    military:
+      name: Military
+    government:
+      name: Government
+    religion:
+      name: Religion
+    charity:
+      name: Charity

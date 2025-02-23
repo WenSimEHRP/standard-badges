@@ -1,0 +1,46 @@
+region:
+  name: Region
+  desc: Geographical regions.
+  badges:
+    asia:
+      name: Asia
+    east_asia:
+      name: East Asia
+    south_asia:
+      name: South Asia
+    southeast_asia:
+      name: Southeast Asia
+    central_asia:
+      name: Central Asia
+    west_asia:
+      name: West Asia
+    middle_east:
+      name: Middle East
+    greater_chinese_region:
+      name: Greater Chinese Region
+    korean_peninsula:
+      name: Korean Peninsula
+    africa:
+      name: Africa
+    europe:
+      name: Europe
+    americas:
+      name: Americas
+    north_america:
+      name: North America
+    south_america:
+      name: South America
+    oceania:
+      name: Oceania
+    antarctica:
+      name: Antarctica
+    manchuria:
+      name: Manchuria
+    siberia:
+      name: Siberia
+    indo_china:
+      name: Indo-China
+    arabian_peninsula:
+      name: Arabian Peninsula
+    asia-oceania:
+      name: Asia-Oceania

@@ -1,0 +1,66 @@
+gauge:
+  name: Gauge
+  desc: Track gauges measured in millimeters.
+  badges:
+    "600":
+      name: 600 mm
+    "610":
+      name: 610 mm
+    "686":
+      name: 686 mm
+    "750":
+      name: 750 mm
+    "760":
+      name: 760 mm
+    "762":
+      name: 762 mm
+    "891":
+      name: 891 mm
+    "900":
+      name: 900 mm
+    "914":
+      name: 914 mm
+    "950":
+      name: 950 mm
+    "1000":
+      name: 1000 mm
+    "1067":
+      name: 1067 mm
+    "1219":
+      name: 1219 mm
+    "1372":
+      name: 1372 mm
+    "1432":
+      name: 1432 mm
+    "1435":
+      name: 1435 mm
+    "1445":
+      name: 1445 mm
+    "1450":
+      name: 1450 mm
+    "1458":
+      name: 1458 mm
+    "1495":
+      name: 1495 mm
+    "1520":
+      name: 1520 mm
+    "1524":
+      name: 1524 mm
+    "1581":
+      name: 1581 mm
+    "1588":
+      name: 1588 mm
+    "1600":
+      name: 1600 mm
+    "1638":
+      name: 1638 mm
+    "1668":
+      name: 1668 mm
+    "1676":
+      name: 1676 mm
+    "1829":
+      name: 1829 mm
+    "2140":
+      name: 2140 mm
+    "3000":
+      name: 3000 mm
