@@ -5,33 +5,33 @@ rci:
   badges:
     residential:
       name: Residential
-    low-density-residential:
+    low_density_residential:
       name: Low density residential
-    medium-density-residential:
+    medium_density_residential:
       name: Medium density residential
-    high-density-residential:
+    high_density_residential:
       name: High density residential
     commercial:
       name: Commercial
-    low-density-commercial:
+    low_density_commercial:
       name: Low density commercial
-    medium-density-commercial:
+    medium_density_commercial:
       name: Medium density commercial
-    high-density-commercial:
+    high_density_commercial:
       name: High density commercial
     industrial:
       name: Industrial
-    low-density-industrial:
+    low_density_industrial:
       name: Low density industrial
-    medium-density-industrial:
+    medium_density_industrial:
       name: Medium density industrial
-    high-density-industrial:
+    high_density_industrial:
       name: High density industrial
-    commercial-residential:
+    commercial_residential:
       name: Commercial & residential
-    low-density-commercial-residential:
+    low_density_commercial_residential:
       name: Low density commercial & residential
-    medium-density-commercial-residential:
+    medium_density_commercial_residential:
       name: Medium density commercial & residential
-    high-density-commercial-residential:
+    high_density_commercial_residential:
       name: High density commercial & residential

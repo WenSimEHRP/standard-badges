@@ -4,49 +4,49 @@ company:
   badges:
     amtrak:
       name: Amtrak
-    canadian-national-railway:
+    canadian_national_railway:
       name: Canadian National Railway
-    canadian-pacific-railway:
+    canadian_pacific_railway:
       name: Canadian Pacific Railway
-    go-transit:
+    go_transit:
       name: GO Transit
-    via-rail:
+    via_rail:
       name: VIA Rail
-    china-railway:
+    china_railway:
       name: China Railway
-    china-railway-high-speed:
+    china_railway_high_speed:
       name: China Railway High-Speed
-    japanese-governmental-railways:
+    japanese_governmental_railways:
       name: Japanese Governmental Railways
-    japanese-national-railways:
+    japanese_national_railways:
       name: Japanese National Railways
-    japan-railways-group:
+    japan_railways_group:
       name: Japan Railways Group
-    jr-central:
+    jr_central:
       name: JR Central
-    jr-east:
+    jr_east:
       name: JR East
-    jr-west:
+    jr_west:
       name: JR West
-    jr-kyushu:
+    jr_kyushu:
       name: JR Kyushu
-    jr-shikoku:
+    jr_shikoku:
       name: JR Shikoku
-    jr-hokkaido:
+    jr_hokkaido:
       name: JR Hokkaido
-    jr-freight:
+    jr_freight:
       name: JR Freight
     mtr:
       name: MTR
-    taiwan-railways:
+    taiwan_railways:
       name: Taiwan Railways Administration
-    taiwan-high-speed-rail:
+    taiwan_high_speed_rail:
       name: Taiwan High Speed Rail Corporation
     translink:
       name: TransLink
-    bc-transit:
+    bc_transit:
       name: BC Transit
-    bc-ferries:
+    bc_ferries:
       name: BC Ferries
     greyhound:
       name: Greyhound
@@ -58,7 +58,7 @@ company:
       name: Airbus
     embraer:
       name: Embraer
-    lockheed-martin:
+    lockheed_martin:
       name: Lockheed Martin
     cessna:
       name: Cessna

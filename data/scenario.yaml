@@ -4,9 +4,9 @@ scenario:
   badges:
     temperate:
       name: Temperate
-    sub-arctic:
+    sub_arctic:
       name: Sub-Arctic
-    sub-tropical:
+    sub_tropical:
       name: Sub-Tropical
     toyland:
       name: Toyland

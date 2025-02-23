@@ -2,19 +2,19 @@ traffic:
   name: Traffic
   desc: Traffic signs.
   badges:
-    urban-area:
+    urban_area:
       name: Urban Area
-    rural-area:
+    rural_area:
       name: Rural Area
     yield:
       name: Yield
-    priority-road:
+    priority_road:
       name: Priority Road
-    no-entry:
+    no_entry:
       name: No Entry
-    circle-with-red-rim:
+    circle_with_red_rim:
       name: Circle with Red Rim
-    yellow-diamond:
+    yellow_diamond:
       name: Yellow Diamond
-    orange-diamond:
+    orange_diamond:
       name: Orange Diamond

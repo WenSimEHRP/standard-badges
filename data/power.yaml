@@ -6,4 +6,4 @@ power:
     diesel:
     gasoline:
     electric:
-    third-rail:
+    third_rail:
