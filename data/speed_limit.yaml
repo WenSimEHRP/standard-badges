@@ -85,6 +85,8 @@ speed_limit:
       name: "195"
     "generic_200":
       name: "200"
+    "generic_no_limit":
+      name: "No limit"
     "north_american_0":
       name: "0"
     "north_american_5":
@@ -167,3 +169,5 @@ speed_limit:
       name: "195"
     "north_american_200":
       name: "200"
+    "north_american_no_limit":
+      name: "No limit"

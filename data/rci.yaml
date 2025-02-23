@@ -35,3 +35,17 @@ rci:
       name: Medium density commercial & residential
     high_density_commercial_residential:
       name: High density commercial & residential
+    agricultural:
+      name: Agricultural
+    forestry:
+      name: Forestry
+    public:
+      name: Public
+    transport:
+      name: Transport
+    general:
+      name: General
+    leisure:
+      name: Leisure
+    other:
+      name: Other
