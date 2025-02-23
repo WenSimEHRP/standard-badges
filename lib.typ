@@ -1,10 +1,20 @@
-#let _test_icon(category: none, id: none, path: none) = {
-  if type(path) == str {
-    return image(path, alt: id)
+#let _find_icon(category: none, id: none, path: none, image_paths: ()) = {
+  // test if path is not none
+  if path in image_paths {
+    return image(path)
+  } else {
+    // there isn't a manually specified path, so we will try to find the icon
+    // based on the category and id
+    let img_path = "gfx/" + category + "/" + id + ".png"
+    if img_path in image_paths {
+      box(height: 2em, width: auto, image(img_path, scaling: "pixelated", alt: img_path))
+    } else {
+      none
+    }
   }
 }
 
-#let badges(contents) = {
+#let badges(contents, image_paths) = {
   for (i, j) in contents {
     let class_name = if type(j) == dictionary { j.at("name", default: none) } else { none }
     let class_desc = if type(j) == dictionary { j.at("desc", default: none) } else { none }
@@ -18,13 +28,15 @@
     let t = (:)
     if type(j) == dictionary and type(j.at("badges", default: none)) == dictionary {
       for (id, content) in j.badges {
-        let icon = none
+        let icon = _find_icon(
+          category: i,
+          id: id,
+          image_paths: image_paths,
+          path: if content != none { (content.at("icon", default: none)) } else { none },
+        )
         let name = none
-        if type(content) == type(none) { } else {
-          let n = content.at("name", default: [_No name_])
-          if n != none {
-            name = n
-          }
+        if type(content) == dictionary {
+          name = content.at("name", default: none)
         }
         t.insert(id, (icon, name))
       }
@@ -37,6 +49,8 @@
       table(
         columns: (auto, 2fr, 3fr),
         table.header([*Icon*], [*ID*], [*Name*]),
+        rows: 2em,
+        align: (x, y) => if (x == 0) { center + horizon } else { horizon },
         ..d
       )
     } else {

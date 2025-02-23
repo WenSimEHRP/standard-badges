@@ -18,7 +18,7 @@
 #show heading: smallcaps
 #show table.cell: it => {
   if it.body == [] {
-    box(inset: it.inset)[_N/A_]
+    align(it.align)[#box(inset: it.inset)[_N/A_]]
   } else { it }
 }
 #set par(justify: true)
@@ -50,8 +50,26 @@
   ).sorted()
 }
 
+
+// --input "images=$(python3 -c 'import json, glob; print(json.dumps(glob.glob("gfx/**/*.png", recursive=True)))')"
+#let images = if "images" in sys.inputs {
+  json(bytes(sys.inputs.images))
+} else {
+  (
+    "gfx/rci/low_density_residential.png",
+    "gfx/rci/medium_density_residential.png",
+    "gfx/rci/high_density_residential.png",
+    "gfx/rci/low_density_commercial.png",
+    "gfx/rci/medium_density_commercial.png",
+    "gfx/rci/high_density_industrial.png",
+    "gfx/rci/industrial.png",
+    "gfx/rci/commercial.png",
+    "gfx/rci/commercial_residential.png",
+  )
+}
+
 #for file in yamls {
-  badges(yaml(file))
+  badges(yaml(file), images)
 }
 
 #pagebreak()
@@ -66,8 +84,13 @@ Standard Badges is licensed under the GNU General Public License v2.0,
 or any later versions, at your discretion. You should have received a copy
 of the license along with this work. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 
+Additionally, the graphics (i.e. image files by general standards) are dual-licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+You should have received a copy of the license along with this work. If not, see https://creativecommons.org/licenses/by-nc-sa/4.0/.
+
 #{
   set heading(outlined: false)
   line(length: 100%)
   cmarker.render(read("license.md"))
+  pagebreak()
+  cmarker.render(read("license2.md"))
 }
