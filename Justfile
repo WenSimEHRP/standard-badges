@@ -6,11 +6,12 @@ def: build cp
 
 # build the newgrf
 build:
-    python3 nml/nmlc -c cstbe.nml
+    python3 build.py
+    python3 nml/nmlc -c sb.nml
 
 # copy to the newgrf folder (linux)
 cp:
-    cp cstbe.grf ~/.local/share/openttd/newgrf/
+    cp sb.grf ~/.local/share/openttd/newgrf/
 
 # generate badges documentation
 doc:
