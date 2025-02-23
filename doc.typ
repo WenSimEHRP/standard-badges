@@ -19,7 +19,7 @@
 #show table.cell: it => {
   if it.body == [] {
     box(inset: it.inset)[_N/A_]
-  } else {it}
+  } else { it }
 }
 #set par(justify: true)
 
@@ -36,17 +36,19 @@
   #outline(depth: 2)
 ]
 
-#let yamls = (
-  "data/company.yaml",
-  "data/flag.yaml",
-  "data/generic.yaml",
-  "data/power.yaml",
-  "data/rci.yaml",
-  "data/role.yaml",
-  "data/speed_limit.yaml",
-  "data/traffic.yaml",
-  "data/weather.yaml",
-).sorted()
+// read all files under the data directory and sort
+// compile with --input "data=$(python3 -c 'import json, glob; print(json.dumps(glob.glob("data/*.yaml")))')"
+#let yamls = if "data" in sys.inputs {
+  json(bytes(sys.inputs.data)).sorted()
+} else {
+  (
+    "data/company.yaml",
+    "data/flag.yaml",
+    "data/generic.yaml",
+    "data/power.yaml",
+    "data/rci.yaml",
+  ).sorted()
+}
 
 #for file in yamls {
   badges(yaml(file))
@@ -58,12 +60,14 @@
 
 #pagebreak()
 
-
 = License
 
 Standard Badges is licensed under the GNU General Public License v2.0,
 or any later versions, at your discretion. You should have received a copy
 of the license along with this work. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 
-#set heading(outlined: false)
-#cmarker.render(read("license.md"))
+#{
+  set heading(outlined: false)
+  line(length: 100%)
+  cmarker.render(read("license.md"))
+}

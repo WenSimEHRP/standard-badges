@@ -15,7 +15,8 @@ cp:
 
 # generate badges documentation
 doc:
-    typst c doc.typ --input "commit=$(git rev-parse HEAD)"
+    typst c doc.typ --input "commit=$(git rev-parse HEAD)" \
+        --input "data=$(python3 -c 'import json, glob; print(json.dumps(glob.glob("data/*.yaml")))')"
 
 # install the experimental petern newgrf-badges nml branch
 install_deps:
