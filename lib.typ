@@ -20,25 +20,23 @@
       for (id, content) in j.badges {
         let icon = none
         let name = none
-        let flags = none
         if type(content) == type(none) { } else {
           let n = content.at("name", default: [_No name_])
           if n != none {
             name = n
           }
         }
-        t.insert(id, (flags, icon, name))
+        t.insert(id, (icon, name))
       }
       let d = ()
       for id in t.keys().sorted() {
         d.push(t.at(id).at(0))
-        d.push(t.at(id).at(1))
         d.push(raw(id))
-        d.push(t.at(id).at(2))
+        d.push(t.at(id).at(1))
       }
       table(
-        columns: (auto, auto, 1fr, 2fr),
-        table.header([*Icon*], [*Flags*], [*ID*], [*Name*]),
+        columns: (auto, 2fr, 3fr),
+        table.header([*Icon*], [*ID*], [*Name*]),
         ..d
       )
     } else {
