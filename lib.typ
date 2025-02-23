@@ -22,7 +22,8 @@
       == #(if class_name == none { raw(i) } else { class_name })
       ID: #raw(i)
 
-      #(if class_desc == none { [_No description_] } else { class_desc })
+      // Description uses eval to allow for custom markup.
+      #(if class_desc == none { [_No description_] } else { eval(class_desc, mode: "markup") })
       \
     ]
     let t = (:)
